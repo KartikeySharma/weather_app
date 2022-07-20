@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: rgb(193, 188, 211);
+}
+
+.search{
+    margin: 100px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #888;
+    border-radius: 15px;
+}
+
+#searchbar{
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    
+}
+
+#searchbar:focus{
+    border-bottom: 2px solid #000;
+}
+
+.info{
+    margin-top: 50px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #888;
+}
+
+#city{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.tempicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+
+}
+
+#temperature{
+    font-size:120px;
+}
+
+.cond{
+    text-align: center;
+    /* border: 1px solid yellow; */
+}
+
+#image{
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+
+#condition{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.other{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+#windimg, #precimg{
+    width: 50px;
+    margin-bottom: 10px;
+}
